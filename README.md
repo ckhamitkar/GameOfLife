@@ -15,3 +15,12 @@ Once a simulation in the Game of Life is started, different recurring patterns m
 Still Lifes are structures that reach a perfect equilibrium and do not change over time (e.g., Block, Loaf).
 Oscillators are structures that have a recurrent pattern and do not change positions in the grid (e.g., Blinker, Beacon).
 Spaceships are structures able to move across the grid while maintaining their integrity (e.g., Glider, Weekender).
+
+As part of the code, the following steps are provided:
+
+First, initialize a random grid of zeros and ones.
+Create a function called game_of_life to do the simulation that takes three parameters (t: the number of iterations; size: the size of the grid; grid: the initial grid configuration).
+It has a main loop that runs for t iterations, where each iteration represents one step of the simulation.
+For each iteration, create a new initial grid of just dead cells.
+You’ll then implement the rules of the Game of Life for each cell.
+The updated grid is then stored in a list of grids so that it can be used to create simulation plots later on.
